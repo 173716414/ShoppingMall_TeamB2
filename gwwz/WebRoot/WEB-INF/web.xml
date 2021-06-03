@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<filter>
+		<filter-name>chartEncoding</filter-name>
+		<filter-class>com.filter.CharacterEncodingFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>CheckThirdLogin</filter-name>
+		<filter-class>com.filter.CheckThirdLoginFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>CheckAdminLogin</filter-name>
+		<filter-class>com.filter.CheckAdminLoginFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>CheckCustomerLogin</filter-name>
+		<filter-class>com.filter.CheckCustomerLoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>chartEncoding</filter-name>
+		<url-pattern>/third/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>chartEncoding</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>chartEncoding</filter-name>
+		<url-pattern>/web/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>chartEncoding</filter-name>
+		<url-pattern>/servlet/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>chartEncoding</filter-name>
+		<url-pattern>/filterWeb/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>chartEncoding</filter-name>
+		<url-pattern>/chat/*</url-pattern>
+	</filter-mapping>
+<filter-mapping>
+		<filter-name>CheckAdminLogin</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>CheckThirdLogin</filter-name>
+		<url-pattern>/third/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>CheckCustomerLogin</filter-name>
+		<url-pattern>/filterWeb/*</url-pattern>
+	</filter-mapping>
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DisplayInfo</servlet-name>
+    <servlet-class>com.control.web.DisplayInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Shopping</servlet-name>
+    <servlet-class>com.control.web.Shopping</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductInfo</servlet-name>
+    <servlet-class>com.control.web.ProductInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>About</servlet-name>
+    <servlet-class>com.control.web.About</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MoreProductInfo</servlet-name>
+    <servlet-class>com.control.web.MoreProductInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Contact</servlet-name>
+    <servlet-class>com.control.web.Contact</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Bulletin</servlet-name>
+    <servlet-class>com.control.web.Bulletin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowBulletinInfo</servlet-name>
+    <servlet-class>com.control.web.ShowBulletinInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderInfo</servlet-name>
+    <servlet-class>com.control.web.OrderInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderGoodsInfo</servlet-name>
+    <servlet-class>com.control.web.OrderGoodsInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchProduct</servlet-name>
+    <servlet-class>com.control.web.SearchProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>typelist</servlet-name>
+    <servlet-class>com.control.web.typelist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoMethod</servlet-name>
+    <servlet-class>com.control.web.DoMethod</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoMethodThird</servlet-name>
+    <servlet-class>com.control.web.DoMethodThird</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckAdminLogin</servlet-name>
+    <servlet-class>com.control.admin.CheckAdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckThirdLogin</servlet-name>
+    <servlet-class>com.control.third.CheckThirdLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageBulletin</servlet-name>
+    <servlet-class>com.control.admin.ManageBulletin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageCustomerInfo</servlet-name>
+    <servlet-class>com.control.admin.ManageCustomerInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageThirdInfo</servlet-name>
+    <servlet-class>com.control.admin.ManageThirdInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageGoodsInfo</servlet-name>
+    <servlet-class>com.control.admin.ManageGoodsInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tManageGoodsInfo</servlet-name>
+    <servlet-class>com.control.third.ManageGoodsInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageOrder</servlet-name>
+    <servlet-class>com.control.admin.ManageOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tManageOrder</servlet-name>
+    <servlet-class>com.control.third.ManageOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUserInfo</servlet-name>
+    <servlet-class>com.control.admin.UpdateUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tUpdateUserInfo</servlet-name>
+    <servlet-class>com.control.third.UpdateUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageGoodsType</servlet-name>
+    <servlet-class>com.control.admin.ManageGoodsType</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tManageGoodsType</servlet-name>
+    <servlet-class>com.control.third.ManageGoodsType</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageDetailType</servlet-name>
+    <servlet-class>com.control.admin.ManageDetailType</servlet-class>
+  </servlet>
+ 
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxCurrentPrivateChatState</servlet-name>
+    <servlet-class>com.control.chat.AjaxCurrentPrivateChatState</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxDoInput</servlet-name>
+    <servlet-class>com.control.chat.AjaxDoInput</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxDoPrivateChatInput</servlet-name>
+    <servlet-class>com.control.chat.AjaxDoPrivateChatInput</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxGetMessage</servlet-name>
+    <servlet-class>com.control.chat.AjaxGetMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxGetPrivateChatMessage</servlet-name>
+    <servlet-class>com.control.chat.AjaxGetPrivateChatMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoChatMethod</servlet-name>
+    <servlet-class>com.control.chat.DoChatMethod</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxGetUsers</servlet-name>
+    <servlet-class>com.control.chat.AjaxGetUsers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayInfo</servlet-name>
+    <url-pattern>/servlet/DisplayInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shopping</servlet-name>
+    <url-pattern>/servlet/Shopping</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductInfo</servlet-name>
+    <url-pattern>/servlet/ProductInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>About</servlet-name>
+    <url-pattern>/servlet/About</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MoreProductInfo</servlet-name>
+    <url-pattern>/servlet/MoreProductInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Contact</servlet-name>
+    <url-pattern>/servlet/Contact</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Bulletin</servlet-name>
+    <url-pattern>/servlet/Bulletin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowBulletinInfo</servlet-name>
+    <url-pattern>/servlet/ShowBulletinInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderInfo</servlet-name>
+    <url-pattern>/servlet/OrderInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderGoodsInfo</servlet-name>
+    <url-pattern>/servlet/OrderGoodsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchProduct</servlet-name>
+    <url-pattern>/servlet/SearchProduct</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>typelist</servlet-name>
+    <url-pattern>/servlet/typelist</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+    <servlet-name>DoMethod</servlet-name>
+    <url-pattern>/servlet/DoMethod</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+    <servlet-name>DoMethodThird</servlet-name>
+    <url-pattern>/servlet/DoMethodThird</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckAdminLogin</servlet-name>
+    <url-pattern>/servlet/CheckAdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckThirdLogin</servlet-name>
+    <url-pattern>/servlet/CheckThirdLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageBulletin</servlet-name>
+    <url-pattern>/servlet/ManageBulletin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageCustomerInfo</servlet-name>
+    <url-pattern>/servlet/ManageCustomerInfo</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+    <servlet-name>ManageThirdInfo</servlet-name>
+    <url-pattern>/servlet/ManageThirdInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageGoodsInfo</servlet-name>
+    <url-pattern>/servlet/ManageGoodsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tManageGoodsInfo</servlet-name>
+    <url-pattern>/servlet/tManageGoodsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageOrder</servlet-name>
+    <url-pattern>/servlet/ManageOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tManageOrder</servlet-name>
+    <url-pattern>/servlet/tManageOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserInfo</servlet-name>
+    <url-pattern>/servlet/UpdateUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tUpdateUserInfo</servlet-name>
+    <url-pattern>/servlet/tUpdateUserInfo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ManageDetailType</servlet-name>
+    <url-pattern>/servlet/ManageDetailType</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageGoodsType</servlet-name>
+    <url-pattern>/servlet/ManageGoodsType</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxCurrentPrivateChatState</servlet-name>
+    <url-pattern>/servlet/AjaxCurrentPrivateChatState</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxDoInput</servlet-name>
+    <url-pattern>/servlet/AjaxDoInput</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxDoPrivateChatInput</servlet-name>
+    <url-pattern>/servlet/AjaxDoPrivateChatInput</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxGetMessage</servlet-name>
+    <url-pattern>/servlet/AjaxGetMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxGetPrivateChatMessage</servlet-name>
+    <url-pattern>/servlet/AjaxGetPrivateChatMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoChatMethod</servlet-name>
+    <url-pattern>/servlet/DoChatMethod</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxGetUsers</servlet-name>
+    <url-pattern>/servlet/AjaxGetUsers</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>servlet/DisplayInfo</welcome-file>
+  </welcome-file-list>
+</web-app>

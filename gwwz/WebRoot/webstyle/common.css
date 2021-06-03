@@ -1,0 +1,23 @@
+/*
+|---------------------------------------------------------------
+|	Common Style
+|---------------------------------------------------------------
+|	File:common.css
+|	Creation Date:2011-07-18
+|	Last Modified:2011-07-18
+|	Author:networker<networker@itwoo.org>
+|	From:xibonet.com
+|---------------------------------------------------------------
+*/
+.bor1{border:1px solid #e1e1e1;}
+.bor2{border:1px solid #78affe;}
+
+#wrap{width:960px;margin:0 auto;zoom:1;}
+#header{overflow:hidden;}
+
+#main{zoom:1;}
+
+.indexnav{height:30px;background-color:#4250b2;margin-top:100px;}
+.indexnav ul li{float:left;display:inline;padding:0 15px;line-height:30px;}
+.indexnav ul li a:link,.indexnav ul li a:visited {text-decoration:none;color:#fff;}
+.indexnav ul li  a:hover{color:#fff; text-decoration:underline;}

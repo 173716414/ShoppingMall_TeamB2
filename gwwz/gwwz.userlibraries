@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="lib">
+    <archive path="K:/JSP/购物网站01-58177-JSP-MY-MS-无商户/58348-JSP-MS-健身商品-衣服-保健品-器材-健身H5-后06水产绿/02源程序/gwwz/WebRoot/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
+    <archive path="K:/JSP/购物网站01-58177-JSP-MY-MS-无商户/58348-JSP-MS-健身商品-衣服-保健品-器材-健身H5-后06水产绿/02源程序/gwwz/WebRoot/WEB-INF/lib/commons-io-1.3.2.jar" />
+    <archive path="K:/JSP/购物网站01-58177-JSP-MY-MS-无商户/58348-JSP-MS-健身商品-衣服-保健品-器材-健身H5-后06水产绿/02源程序/gwwz/WebRoot/WEB-INF/lib/jspsmartupload.jar" />
+    <archive path="K:/JSP/购物网站01-58177-JSP-MY-MS-无商户/58348-JSP-MS-健身商品-衣服-保健品-器材-健身H5-后06水产绿/02源程序/gwwz/WebRoot/WEB-INF/lib/sqljdbc.jar" />
+  </library>
+</eclipse-userlibraries>
+

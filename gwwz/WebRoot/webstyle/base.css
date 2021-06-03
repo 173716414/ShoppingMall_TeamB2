@@ -1,0 +1,46 @@
+/*
+|---------------------------------------------------------------
+|	base Style
+|---------------------------------------------------------------
+|	File:base.css
+|	Creation Date:2011-07-18
+|	Last Modified:2011-07-18
+|	Author:networker<networker@itwoo.org>
+|	From:xibonet.com
+|---------------------------------------------------------------
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+body,button,input,textarea {font:12px/1.5 "\5B8B\4F53",Tahoma,arial;}
+fieldset,img,button{border:none;}
+img,input,select{vertical-align:middle;}
+/*address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}*/
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:bofore,q:after{content:"";}
+abbr,acronym{border:0;}
+a:link, a:visited {text-decoration:none;color:#404040;}
+a:hover{color:#5f9c09; text-decoration:underline;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix {display:inline-block;}
+*html .clearfix {height:1%;}
+.clearfix {display:block;} 
+input[type=text]:focus,
+input[type=password]:focus {outline:0 none;} 
+
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.mt5{margin-top:5px;}
+.ml5{margin-left:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt25{margin-top:25px;}
+.ml7{margin-left:6px;}
+.ml10{margin-left:10px;}
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px;}
+.ml15{margin-left:15px;}
+.hidden{display:none;}
+.bor{border:1px solid #c7e0ff;background-color:#fff;}
+.clr{clear:both;height:0;font-size:0;line-height:0;}

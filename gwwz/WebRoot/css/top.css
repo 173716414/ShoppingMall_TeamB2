@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body, div, iframe, ul, li, ol, dl, dt, dd, p, table, th, td, legend, fieldset, input, button, select, textarea {margin: 0;padding: 0;font-weight: normal;font-style:normal;font-size: 100%;font-family: inherit;}
+body{font-size:12px; margin:0; font:Arial, Helvetica,"宋体", sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal;}
+a{color:#fff;text-decoration: none;} 
+a:link {color:#fff;}
+a:visited {color:#fff;}
+a:hover {color: #c30;text-decoration:underline;}
+a:active{blr:expression(this.onFocus=this.blur())}
+a:focus {outline:none; -moz-outline:none;}
+img {border:0;}
+table { border-collapse:collapse; border-spacing:0; }
+ol, ul {list-style: none;}        
+i, em{font-style:normal;}
+.clear { clear: both; font: 0px/0px sans-serif;}
+.top_box{ height:96px; max-height:96px;background:url(../images/admbg.png) repeat-x  0 0;overflow:hidden;}
+.top_logo{ width:174px; height:63px; max-height:63px; float:left; margin:0px 20px 0px 15px; display:inline; line-height:63px;}
+.top_nav{height:63px; max-height:63px; }
+.top_nav_sm{height:28px; max-height:28px;overflow:hidden;color:#fff; line-height:28px; font-size:12px;}
+.top_nav_sm a:hover {color: #fff;text-decoration:underline;}
+
+.top_nav_xm{height:35px; max-height:35px;overflow:hidden;}
+.top_nav_xm .navtit{width:auto;height:32px;max-height:32px;float:left;overflow:hidden; margin-top:7px;}
+
+.top_nav_xm .navtit a{padding-left:10px;height:32px;max-height:32px;font-size:12px;background: url(../images/adm_qs.png) no-repeat;display:block;float:left;color:#fff; margin-right:8px;CURSOR: pointer;}
+.top_nav_xm .navtit a i{height:32px;max-height:32px; line-height:30px;padding-right:10px;color:#fff; float:left;background: url(../images/adm_qs.png) no-repeat right -0px; display:block;float:left;CURSOR: pointer;}
+
+.top_nav_xm .navtit .hover  a{padding-left:10px;height:32px;max-height:32px;font-size:12px;background: url(../images/adm_ds.png) no-repeat;display:block;float:left;color:#000; margin-right:8px;CURSOR: pointer;}
+.top_nav_xm .navtit .hover  a i{height:32px;max-height:32px; line-height:30px;padding-right:10px;color:#000; float:left;background: url(../images/adm_ds.png) no-repeat right -0px; display:block;float:left;CURSOR: pointer;font-weight:bold}
+
+.top_nav_xm .navtit a:hover {padding-left:10px;height:32px;max-height:32px;font-size:12px;text-decoration:none;background: url(../images/adm_ds.png) no-repeat;display:block;float:left;color:#000;CURSOR: pointer;}
+.top_nav_xm .navtit a:hover i{height:32px;max-height:32px; line-height:30px;padding-right:10px;color:#000; float:left;text-decoration:none;background: url(../images/adm_ds.png) no-repeat right -0px;display:block;CURSOR: pointer}
+.top_bar{ height:33px; max-height:33px; margin-top:0px;}
+.bntof{width:90px; background:none; border:none;height:25px;max-height:25px; line-height:25px;border:0px;cursor:pointer;font-size:12px; margin-top:4px; text-align:center; color:#333; text-align:center;margin-left:10px; float:left;}
+.top_she{ width:auto;height:100px; max-height:500px; margin-right:100px; float:right; line-height:500px}
+.top_she a{display:block; background:url(../images/bnt_bg.png); width:60px; line-height:20px; text-align:center; float:right; margin:5px; margin-top:8px; color:#3A6EA5; text-decoration:none}
+.top_she a:visited{color:#3A6EA5; text-decoration:none}
+.top_she a:hover{text-decoration:underline}
+
+/*最底部*/
+.bott{ height:4px; max-height:4px;background:#F5F5F5;overflow:hidden;}

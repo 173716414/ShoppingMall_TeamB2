@@ -1,0 +1,24 @@
+/* 左侧菜单 */
+body{background:#f7fbfc; font-size:12px; height:auto; font-family:Verdana, Arial, Helvetica, sans-serif; margin-top:10px}
+a:active{blr:expression(this.onFocus=this.blur())}
+a:focus {
+    outline:none;
+    -moz-outline:none;
+}
+div{margin:0px; padding:0px}
+.div_bigmenu{width:120px; margin:5px auto; clear:both; margin-top:6px; margin-bottom:0px}
+.div_bigmenu_nav_left{font-size:14px; cursor:pointer; font-weight:bold; padding:5px 0px; padding-top:0px; border-bottom:#d9e4ea 1px solid; color:#275d96; width:120px; background:url(../images/toggle_left.png) right no-repeat; line-height:16px}
+.div_bigmenu_nav_down{font-size:14px; cursor:pointer; font-weight:bold; padding:5px 0px; padding-top:0px;border-bottom:#d9e4ea 1px solid;color:#275d96; width:120px; background:url(../images/toggle_down.png) right no-repeat; line-height:16px}
+.div_bigmenu ul{width:115px; margin:0px auto; padding:6px 0px; list-style:none}
+.div_bigmenu ul li{width:115px; text-align:left; height:21px; line-height:21px}
+.div_bigmenu ul li a{color:#222; text-decoration:none; display:block; width:102px; height:20px; padding-left:8px}
+.div_bigmenu ul li a:hover{background:url(../images/left_hover.gif);}
+
+.div_cbigmenu{width:120px; margin:5px auto; clear:both; margin-top:10px; margin-bottom:0px}
+.div_cbigmenu ul{width:115px; margin:0px auto; padding:8px 0px; list-style:none}
+.div_cbigmenu ul li{width:115px; text-align:left; line-height:22px}
+.div_cbigmenu ul li a{color:#222; text-decoration:none; display:block; width:102px; height:20px; padding-left:8px}
+.div_cbigmenu ul li a:hover{color:#ff3300}
+.minus{background:url(../images/minus.gif) 1px no-repeat; margin-left:2px; text-indent:6px}
+.plus{background:url(../images/plus.gif) 1px no-repeat; margin-left:2px; text-indent:6px}
+.page{background:url(../images/final.gif) -2px no-repeat; margin-left:2px;text-indent:6px}
